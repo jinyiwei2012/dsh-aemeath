@@ -1,0 +1,9 @@
+{
+  "slug": "aemeath",
+  "legacy_manifest_status": "invalid-encoding-or-json; original retained in preflight backup",
+  "last_checked": "2026-10-27T20:00:44.687543+00:00",
+  "maintenance_note": "UPDATE-20261028.md",
+  "test_results": null,
+  "quality_score": null,
+  "validation_status": "source-and-structure-review; no independent runtime evaluation"
+}

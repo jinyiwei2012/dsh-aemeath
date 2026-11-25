@@ -1,0 +1,11 @@
+{
+  "name": "moegirl",
+  "url": "https://zh.moegirl.org.cn/%E7%88%B1%E5%BC%A5%E6%96%AF",
+  "route": "direct",
+  "fetched_at": "2026-10-27T19:48:12.607492+00:00",
+  "status": 200,
+  "final_url": "https://zh.moegirl.org.cn/%E7%88%B1%E5%BC%A5%E6%96%AF",
+  "ok": true,
+  "characters": 15917,
+  "sha256": "6bdb0545e5847670356000da0454cbc208298ea69202e779d334dd27e90e4731"
+}

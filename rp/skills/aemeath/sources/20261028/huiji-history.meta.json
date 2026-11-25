@@ -1,0 +1,10 @@
+{
+  "name": "huiji-history",
+  "url": "https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF%2F%E7%BB%8F%E5%8E%86&prop=wikitext&format=json&formatversion=2",
+  "route": "proxy",
+  "fetched_at": "2026-10-27T19:48:12.609104+00:00",
+  "status": 403,
+  "final_url": "https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF%2F%E7%BB%8F%E5%8E%86&prop=wikitext&format=json&formatversion=2",
+  "ok": false,
+  "error": "403 Client Error: Forbidden for url: https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF%2F%E7%BB%8F%E5%8E%86&prop=wikitext&format=json&formatversion=2"
+}

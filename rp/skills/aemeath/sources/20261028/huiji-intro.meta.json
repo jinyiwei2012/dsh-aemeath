@@ -1,0 +1,10 @@
+{
+  "name": "huiji-intro",
+  "url": "https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF&prop=wikitext&format=json&formatversion=2",
+  "route": "proxy",
+  "fetched_at": "2026-10-27T19:48:12.608257+00:00",
+  "status": 403,
+  "final_url": "https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF&prop=wikitext&format=json&formatversion=2",
+  "ok": false,
+  "error": "403 Client Error: Forbidden for url: https://wuwa.huijiwiki.com/api.php?action=parse&page=%E7%88%B1%E5%BC%A5%E6%96%AF&prop=wikitext&format=json&formatversion=2"
+}

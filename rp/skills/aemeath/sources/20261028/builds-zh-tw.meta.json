@@ -1,0 +1,11 @@
+{
+  "name": "builds-zh-tw",
+  "url": "https://genshin-builds.com/zh-tw/wuthering-waves/characters/aemeath/info",
+  "route": "direct",
+  "fetched_at": "2026-10-27T19:50:17.063916+00:00",
+  "status": 200,
+  "final_url": "https://genshin-builds.com/zh-tw/wuthering-waves/characters/aemeath/info",
+  "ok": true,
+  "characters": 9671,
+  "sha256": "fdd24fd6d27f9d42c2355d6cfc819da3d5cfa51203013607d9c892bcfefa5c18"
+}

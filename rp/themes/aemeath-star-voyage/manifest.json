@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../schemas/theme-manifest-v2.schema.json",
+  "schemaVersion": 2,
+  "id": "aemeath.star-voyage",
+  "name": "爱弥斯 · 星海远航",
+  "version": "1.0",
+  "author": "lyc1uckYoo",
+  "description": "以爱弥斯、电子幽灵与隧者兵装为核心的旗舰主题。亮色描绘星炬学院晨光远航，暗色进入隧者核心与深空链接；右下双卡上方加入真实机制同步面板，左下角呈现专属长剑「永远的启明星」。",
+  "engineVersion": 2,
+  "type": "advanced",
+  "template": {
+    "id": "flagship",
+    "version": "1.0",
+    "style": "shared"
+  },
+  "capabilities": {
+    "light": true,
+    "dark": true
+  },
+  "entryPoints": {
+    "css": "skin.css",
+    "script": "theme.js",
+    "artworkDefaults": "artwork-defaults.json"
+  },
+  "previews": {
+    "light": "assets/hero-light-card.jpg",
+    "dark": "assets/hero-dark-card.jpg"
+  },
+  "assets": {
+    "hero-light": "assets/hero-light.webp",
+    "hero-dark": "assets/hero-dark.webp",
+    "sidebar-light": "assets/sidebar-light.webp",
+    "sidebar-dark": "assets/sidebar-dark.webp",
+    "chat-light": "assets/chat-light.webp",
+    "chat-dark": "assets/chat-dark.webp",
+    "task-left": "assets/task-left.webp",
+    "task-left-dark": "assets/task-left-dark.webp",
+    "task-right-secondary": "assets/task-right-secondary.webp",
+    "task-right-secondary-dark": "assets/task-right-secondary-dark.webp",
+    "task-right-primary": "assets/task-right-primary.webp",
+    "task-right-primary-dark": "assets/task-right-primary-dark.webp",
+    "memory-light": "assets/memory-light.webp",
+    "memory-dark": "assets/memory-dark.webp"
+  },
+  "config": {
+    "title": "爱弥斯 · 星海远航",
+    "subtitle": "把每一次告别折成航标，下一次相见就在星海尽处。",
+    "status": "RA2362-G · GHOST LINK ONLINE",
+    "memory": "她把未说完的话留进星图，也把属于隧者的深空回声带向新的航线。"
+  },
+  "compatibility": {
+    "petOverlay": false
+  }
+}
