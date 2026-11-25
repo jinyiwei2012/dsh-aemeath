@@ -9,7 +9,9 @@ import test_updates
 
 class PackageTests(unittest.TestCase):
     def setUp(self):
-        self.temp=tempfile.TemporaryDirectory();self.base=pathlib.Path(self.temp.name);self.root=self.base/'中文 安装目录';self.root.mkdir()
+        # Resolve once: TemporaryDirectory may hand back an 8.3 short path (ADMINI~1), while
+        # update_recovery.recover() compares its journal against Path(root).resolve().
+        self.temp=tempfile.TemporaryDirectory();self.base=pathlib.Path(self.temp.name).resolve();self.root=self.base/'中文 安装目录';self.root.mkdir()
         (self.root/EXECUTABLE_NAME).write_bytes(b'OLD PROGRAM')
         self.personal={'settings.json':b'{"appearance":{"show_quota":false},"caption":"mine"}',
                        'assets/mine.gif':b'GIF89a','audio/mine.ogg':b'VOICE','fonts/mine.ttf':b'FONT','my-folder/notes.txt':b'USER'}
