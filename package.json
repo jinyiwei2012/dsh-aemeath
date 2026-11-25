@@ -24,6 +24,9 @@
   },
   "files": [
     "lib/*.js",
+    "rp/skills/*/*",
+    "rp/themes/*/*",
+    "rp/themes/*/assets/*",
     "cordis.patch.yml",
     "icon.png",
     "locale/*.json",
